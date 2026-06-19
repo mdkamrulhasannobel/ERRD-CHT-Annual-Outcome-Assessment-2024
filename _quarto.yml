@@ -1,0 +1,16 @@
+project:
+  type: default
+  output-dir: report
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    embed-resources: true
+    code-fold: true
+
+execute:
+  echo: false
+  warning: false
+  message: false

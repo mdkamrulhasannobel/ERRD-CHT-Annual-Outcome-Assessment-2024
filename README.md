@@ -125,14 +125,4 @@ benchmark values were informed by the following published sources:
 
 ---
 
-## Contact
-
-**MD. Kamrul Hasan**  
-DM WATCH LIMITED  
-Shatabdi Haque Tower (3rd Floor), 586/3, Begum Rokeya Sharani,  
-West Shewrapara, Mirpur, Dhaka-1216, Bangladesh  
-📧 info@dmwatch.com | 📞 +880 1328 964266
-
----
-
-*© 2024 DM WATCH LIMITED. All Rights Reserved.*
+*© 2026 DM WATCH LIMITED. All Rights Reserved.*

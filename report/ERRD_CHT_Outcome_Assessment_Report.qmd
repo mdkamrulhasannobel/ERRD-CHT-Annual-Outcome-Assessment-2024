@@ -3,7 +3,7 @@ title: |
   **Longitudinal Outcome Monitoring and Assessment of Multi-Sectoral Climate Resilience, 
   Biodiversity Conservation, and Inclusive Education Interventions**  
   *Annual Outcome Assessment (AOA) — 2024*
-subtitle: "Ecosystems Restoration and Resilient Development in the Chittagong Hill Tracts (ERRD-CHT) Programme"
+subtitle: "Ecosystems Restoration and Resilient Development in the Chittagong Hill Tracts (ERRD-CHT) Programme — *Synthetic Data Demonstration · Portfolio Project*"
 author:
   - name: "MD. Kamrul Hasan"
     affiliation: "DM WATCH LIMITED — Monitoring, Evaluation and Learning Consultancy"
@@ -38,6 +38,14 @@ execute:
   message: false
 bibliography: references.bib
 ---
+
+::: {.callout-warning appearance="default" icon="true"}
+## Note on Data — Please Read Before Citing
+
+This report is an **independently produced demonstration and portfolio project**. All survey data presented were **synthetically generated** using parameterized statistical distributions calibrated against published literature, census benchmarks, and programme documentation from the CHT region (see Section 1.3 and the References section for sources). The figures, indicators, and findings do **not** represent actual fieldwork, real respondents, or verified programme outcomes.
+
+This document is modelled on the real-world ERRD-CHT programme context (UNDP Bangladesh / Global Affairs Canada) solely to demonstrate realistic M&E reporting, longitudinal survey design, and data visualization practice. **It is not an official deliverable of UNDP, Global Affairs Canada, or DM WATCH LIMITED.**
+:::
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
@@ -167,6 +175,10 @@ The assessment employed a **mixed-methods, longitudinal design** combining:
 - Real-time data quality monitoring, spot-checks, and back-checks  
 
 Data collection took place between **September–December 2024** across 15 upazilas.
+
+::: {.callout-note appearance="minimal"}
+**Synthetic Data Note:** For this portfolio demonstration, survey datasets were generated programmatically in R using parameterized probability distributions. Variable means, standard deviations, and categorical proportions were calibrated against published CHT socioeconomic benchmarks — including UNDP programme reports, Banglapedia district profiles, peer-reviewed ecological studies (MDPI, Springer), and World Bank education statistics — to produce realistic, internally consistent data at the actual survey sample sizes (CoRLIA *n* = 620; BERCR *n* = 495; WGEIE *n* = 1,104). This is a deliberate methodological choice to illustrate what field-collected data of this design would look like, not an attempt to misrepresent synthetic data as real.
+:::
 
 
 # Sample Profile and Socio-Demographic Characteristics
@@ -885,17 +897,6 @@ sat_all |>
   column_spec(2:3, bold = TRUE)
 ```
 
-sat_all |>
-  group_by(component) |>
-  summarise(
-    `Mean Score`        = round(mean(satisfaction_score), 2),
-    `% Satisfied (4–5)` = round(mean(satisfaction_score >= 4) * 100, 1)
-  ) |>
-  kbl(caption = "Programme Satisfaction Summary by Component", booktabs = TRUE) |>
-  kable_styling(bootstrap_options = c("striped","hover"), full_width = FALSE) |>
-  column_spec(2:3, bold = TRUE)
-```
-
 ```{r fig-satisfaction, fig.cap="Overall Programme Satisfaction by Component", fig.height=4.5}
 sat_all |>
   ggplot(aes(x = factor(satisfaction_score), fill = component)) +
@@ -1167,9 +1168,7 @@ dignity; and market access limitations prevent NTFP income from reaching its pot
 These challenges should guide adaptive programme management priorities in the remaining 
 implementation period.
 
-DM WATCH LIMITED recommends that the programme continue its current course while intensifying 
-equity-focused implementation in the most marginalized upazilas, and invest in a longitudinal 
-tracking system to capture sustained changes beyond programme boundaries.
+In a real programme engagement of this nature, the MEL consultant would recommend that the programme continue its current course while intensifying equity-focused implementation in the most marginalized upazilas, and invest in a longitudinal tracking system to capture sustained changes beyond programme boundaries.
 
 ---
 
@@ -1268,7 +1267,6 @@ tibble(
 
 ---
 
-*Report prepared by DM WATCH LIMITED, Dhaka, Bangladesh.*  
-*Client: United Nations Development Programme (UNDP) Bangladesh.*  
-*Funded by: Global Affairs Canada (GAC).*  
-*© 2024 DM WATCH LIMITED. All Rights Reserved.*
+*This is an independently produced demonstration report modelled on the real-world ERRD-CHT programme context (UNDP Bangladesh / Global Affairs Canada) for portfolio and M&E skills demonstration purposes only.*  
+*Not an official deliverable of UNDP, Global Affairs Canada, or DM WATCH LIMITED.*  
+*Prepared by: MD. Kamrul Hasan · © 2026*
