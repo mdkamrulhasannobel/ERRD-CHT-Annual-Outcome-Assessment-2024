@@ -1,0 +1,16 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.DS_Store
+
+# Quarto intermediates
+*_files/
+*.quarto/
+report/*_cache/
+
+# Large rendered files (HTML is tracked intentionally)
+# Uncomment below if you want to exclude the HTML:
+# report/*.html
