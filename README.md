@@ -11,13 +11,11 @@ Biodiversity Conservation, and Inclusive Education Interventions**
 |---|---|
 | **Author** | MD. Kamrul Hasan |
 | **Organisation** | DM WATCH LIMITED |
-| **Client** | United Nations Development Programme (UNDP) Bangladesh |
-| **Funder** | Global Affairs Canada (GAC) |
 | **Programme** | Ecosystems Restoration and Resilient Development in the Chittagong Hill Tracts (ERRD-CHT) |
-| **Assessment Type** | Annual Outcome Assessment (AOA) |
-| **Data Collection Period** | September – December 2024 |
+| **Assessment Type** | Annual Outcome Assessment (AOA) — Portfolio Demonstration |
+| **Data Collection Period** | September – December 2024 (Synthetic) |
 | **Geography** | Rangamati, Bandarban, Khagrachari Districts, CHT, Bangladesh |
-| **Total Sample** | 2,219 respondents across 3 components |
+| **Total Sample** | 2,219 respondents across 3 components (Synthetic) |
 
 ---
 

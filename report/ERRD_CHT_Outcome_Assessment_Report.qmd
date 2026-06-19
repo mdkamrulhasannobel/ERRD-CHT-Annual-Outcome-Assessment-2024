@@ -81,71 +81,55 @@ wgeie$mhm_knowledge_baseline <- factor(wgeie$mhm_knowledge_baseline, levels = mh
 wgeie$mhm_knowledge_endline  <- factor(wgeie$mhm_knowledge_endline,  levels = mhm_levels)
 ```
 
----
-
+------------------------------------------------------------------------
 
 # Executive Summary {.unnumbered}
 
-The **Ecosystems Restoration and Resilient Development in the Chittagong Hill Tracts (ERRD-CHT)** 
-Programme, implemented by UNDP Bangladesh and funded by Global Affairs Canada (GAC), represents a 
-landmark multi-sectoral initiative targeting climate resilience, biodiversity restoration, and 
-inclusive education for indigenous and marginalized communities across three hill districts.
+The **Ecosystems Restoration and Resilient Development in the Chittagong Hill Tracts (ERRD-CHT)** Programme, implemented by UNDP Bangladesh and funded by Global Affairs Canada (GAC), represents a landmark multi-sectoral initiative targeting climate resilience, biodiversity restoration, and inclusive education for indigenous and marginalized communities across three hill districts.
 
-This Annual Outcome Assessment (AOA) synthesizes findings from **2,219 quantitative survey 
-respondents** and supporting qualitative inquiry across Rangamati, Bandarban, and Khagrachari 
-districts, covering three programme components:
+This Annual Outcome Assessment (AOA) synthesizes findings from **2,219 quantitative survey respondents** and supporting qualitative inquiry across Rangamati, Bandarban, and Khagrachari districts, covering three programme components:
 
 - **CoRLIA** — Community Resilience through Locally-Led Inclusive Adaptation (*n* = 620)
-- **BERCR** — Biodiversity Ecosystems Restoration for Community Resilience (*n* = 495)  
+- **BERCR** — Biodiversity Ecosystems Restoration for Community Resilience (*n* = 495)\
 - **WGEIE** — Women and Girls Empowerment through Inclusive Education (*n* = 1,104)
 
 **Key headline findings across components:**
 
-| Indicator Domain | Baseline | Endline | Change |
-|---|---|---|---|
-| Mean household resilience index (CoRLIA) | 38.4 | 52.6 | **+14.2 pts** |
-| Climate adaptation practices score | 3.2/10 | 5.9/10 | **+2.7 pts** |
-| Biodiversity index (BERCR) | 42.1 | 53.9 | **+11.8 pts** |
-| Forest cover — "Increased" responses | 18% | 56% | **+38 pp** |
-| Girls enrolment rate (WGEIE) | 72.4% | 82.0% | **+9.6 pp** |
-| Girls dropout rate | 18.6% | 12.4% | **−6.2 pp** |
-| Agency/empowerment score (girls) | 3.8/10 | 5.9/10 | **+2.1 pts** |
-| Child marriage prevalence | 42.8% | 34.4% | **−8.4 pp** |
+| Indicator Domain                         | Baseline | Endline | Change        |
+|------------------|------------------|------------------|------------------|
+| Mean household resilience index (CoRLIA) | 38.4     | 52.6    | **+14.2 pts** |
+| Climate adaptation practices score       | 3.2/10   | 5.9/10  | **+2.7 pts**  |
+| Biodiversity index (BERCR)               | 42.1     | 53.9    | **+11.8 pts** |
+| Forest cover — "Increased" responses     | 18%      | 56%     | **+38 pp**    |
+| Girls enrolment rate (WGEIE)             | 72.4%    | 82.0%   | **+9.6 pp**   |
+| Girls dropout rate                       | 18.6%    | 12.4%   | **−6.2 pp**   |
+| Agency/empowerment score (girls)         | 3.8/10   | 5.9/10  | **+2.1 pts**  |
+| Child marriage prevalence                | 42.8%    | 34.4%   | **−8.4 pp**   |
 
-: Summary of Key Outcome Indicators — Baseline vs. Endline {#tbl-exec-summary}
-
+: Summary of Key Outcome Indicators — Baseline vs. Endline
 
 # Introduction
 
 ## Programme Background
 
-The Chittagong Hill Tracts (CHT) — comprising Rangamati, Bandarban, and Khagrachari districts — 
-cover approximately **13,300 km²** (about 9% of Bangladesh's land area) and are home to over 
-1.6 million people, including 13 distinct ethnic minority groups [@undp_cht_2023]. The region 
-faces compounding vulnerabilities: landslides following heavy rainfall (notably 2017), 
-deforestation-driven watershed degradation, persistent poverty, and historically limited access 
-to education and health services — particularly for indigenous women and girls [@preprints_deforestation_2025].
+The Chittagong Hill Tracts (CHT) — comprising Rangamati, Bandarban, and Khagrachari districts — cover approximately **13,300 km²** (about 9% of Bangladesh's land area) and are home to over 1.6 million people, including 13 distinct ethnic minority groups [@undp_cht_2023]. The region faces compounding vulnerabilities: landslides following heavy rainfall (notably 2017), deforestation-driven watershed degradation, persistent poverty, and historically limited access to education and health services — particularly for indigenous women and girls [@preprints_deforestation_2025].
 
-The ERRD-CHT Programme, launched in 2021 and funded by Global Affairs Canada (GAC), addresses 
-these interconnected challenges through three mutually reinforcing components designed to build 
-long-term ecosystem and community resilience.
+The ERRD-CHT Programme, launched in 2021 and funded by Global Affairs Canada (GAC), addresses these interconnected challenges through three mutually reinforcing components designed to build long-term ecosystem and community resilience.
 
 ## Assessment Objectives
 
 The primary objectives of this Annual Outcome Assessment were to:
 
-1. Measure progress against **ultimate, intermediate, and immediate outcome indicators** 
-   defined in the Performance Measurement Framework (PMF)
-2. Quantify **changes in resilience, empowerment, access to services and education**, 
-   and participation in decision-making — particularly for women and girls
-3. Generate **reliable, field-based evidence** meeting Global Affairs Canada (GAC) reporting standards
-4. Identify **lessons learned and emerging results** for adaptive programme management
+1.  Measure progress against **ultimate, intermediate, and immediate outcome indicators** defined in the Performance Measurement Framework (PMF)
+2.  Quantify **changes in resilience, empowerment, access to services and education**, and participation in decision-making — particularly for women and girls
+3.  Generate **reliable, field-based evidence** meeting Global Affairs Canada (GAC) reporting standards
+4.  Identify **lessons learned and emerging results** for adaptive programme management
 
 ## Scope and Coverage
 
 ```{r coverage-table}
 tibble(
-  Component = c("CoRLIA", "BERCR", "WGEIE", "**Total**"),
+  Component = c("CoRLIA", "BERCR", "WGEIE", "Total"),
   `Respondent Groups` = c(
     "VWGs, WCRCs, Youth, Stakeholders, LG Representatives",
     "BCGs, Forest Management Groups, Eco-Entrepreneurs, Community Leaders",
@@ -168,18 +152,17 @@ tibble(
 
 The assessment employed a **mixed-methods, longitudinal design** combining:
 
-- Large-scale structured quantitative surveys administered via **KOBO Toolbox** digital platform  
-- Key Informant Interviews (KIIs) and Focus Group Discussions (FGDs) for qualitative depth  
-- **Baseline-to-endline comparison** using retrospective recall and repeated cross-sectional measures  
-- **20 trained local enumerators** with CHT socio-cultural familiarity  
-- Real-time data quality monitoring, spot-checks, and back-checks  
+- Large-scale structured quantitative surveys administered via **KOBO Toolbox** digital platform\
+- Key Informant Interviews (KIIs) and Focus Group Discussions (FGDs) for qualitative depth\
+- **Baseline-to-endline comparison** using retrospective recall and repeated cross-sectional measures\
+- **20 trained local enumerators** with CHT socio-cultural familiarity\
+- Real-time data quality monitoring, spot-checks, and back-checks
 
 Data collection took place between **September–December 2024** across 15 upazilas.
 
 ::: {.callout-note appearance="minimal"}
 **Synthetic Data Note:** For this portfolio demonstration, survey datasets were generated programmatically in R using parameterized probability distributions. Variable means, standard deviations, and categorical proportions were calibrated against published CHT socioeconomic benchmarks — including UNDP programme reports, Banglapedia district profiles, peer-reviewed ecological studies (MDPI, Springer), and World Bank education statistics — to produce realistic, internally consistent data at the actual survey sample sizes (CoRLIA *n* = 620; BERCR *n* = 495; WGEIE *n* = 1,104). This is a deliberate methodological choice to illustrate what field-collected data of this design would look like, not an attempt to misrepresent synthetic data as real.
 :::
-
 
 # Sample Profile and Socio-Demographic Characteristics
 
@@ -200,7 +183,7 @@ sample_dist <- all_resp |>
 
 grand_total <- sample_dist |>
   summarise(across(where(is.numeric), sum)) |>
-  mutate(component = "**Grand Total**")
+  mutate(component = "Grand Total")
 
 bind_rows(sample_dist, grand_total) |>
   kbl(caption = "Sample Distribution by Component and District",
@@ -277,15 +260,11 @@ all_resp |>
   theme(legend.position = "bottom", axis.text.x = element_text(size = 9))
 ```
 
-
 # Component I: CoRLIA — Climate Resilience Outcomes
 
 ## Overview
 
-The CoRLIA component targets climate-vulnerable communities by strengthening locally-led 
-adaptation through Village Women Groups (VWGs), Women's Climate Resilience Committees (WCRCs), 
-and youth networks. The 620 CoRLIA respondents represent communities in the most climate-exposed 
-upazilas across all three districts.
+The CoRLIA component targets climate-vulnerable communities by strengthening locally-led adaptation through Village Women Groups (VWGs), Women's Climate Resilience Committees (WCRCs), and youth networks. The 620 CoRLIA respondents represent communities in the most climate-exposed upazilas across all three districts.
 
 ## Climate Shock Exposure
 
@@ -319,8 +298,7 @@ corlia |>
 
 ## Household Resilience Index
 
-The Household Resilience Index (HRI) is a composite score (0–100) measuring adaptive capacity, 
-access to resources, social capital, and livelihood diversification.
+The Household Resilience Index (HRI) is a composite score (0–100) measuring adaptive capacity, access to resources, social capital, and livelihood diversification.
 
 ```{r fig-resilience, fig.cap="Household Resilience Index: Baseline vs. Endline Distribution", fig.height=4.5}
 corlia |>
@@ -378,7 +356,6 @@ corlia |>
   theme_minimal(base_size = 12) +
   theme(legend.position = "bottom")
 ```
-
 
 ## Climate Adaptation Practices
 
@@ -518,15 +495,11 @@ corlia |>
   theme(legend.position = "bottom")
 ```
 
-
 # Component II: BERCR — Biodiversity and Ecosystem Restoration
 
 ## Overview
 
-The BERCR component engages communities in active biodiversity conservation, watershed 
-co-management, and sustainable green livelihoods. With 495 respondents drawn from Biodiversity 
-Conservation Groups (BCGs), forest management committees, and eco-entrepreneurs, BERCR represents 
-the programme's environmental stewardship pillar.
+The BERCR component engages communities in active biodiversity conservation, watershed co-management, and sustainable green livelihoods. With 495 respondents drawn from Biodiversity Conservation Groups (BCGs), forest management committees, and eco-entrepreneurs, BERCR represents the programme's environmental stewardship pillar.
 
 ## Biodiversity Index Change
 
@@ -669,15 +642,11 @@ bercr |>
   theme(legend.position = "bottom")
 ```
 
-
 # Component III: WGEIE — Inclusive Education and Empowerment
 
 ## Overview
 
-The WGEIE component is the largest by sample size (*n* = 1,104) and the most diverse in 
-respondent composition, covering students, teachers, households, RHCWs, Mother Clubs, and 
-law enforcement. It targets gender gaps in education access, quality, and empowerment outcomes 
-in CHT's remote hill schools.
+The WGEIE component is the largest by sample size (*n* = 1,104) and the most diverse in respondent composition, covering students, teachers, households, RHCWs, Mother Clubs, and law enforcement. It targets gender gaps in education access, quality, and empowerment outcomes in CHT's remote hill schools.
 
 ## School Infrastructure Indicators
 
@@ -869,7 +838,6 @@ bind_rows(
   theme(legend.position = "bottom")
 ```
 
-
 # Cross-Cutting Analysis
 
 ## Programme Satisfaction Across Components
@@ -998,7 +966,6 @@ corrplot(cor(cor_data, use = "complete.obs"),
          mar   = c(0,0,1.5,0))
 ```
 
-
 # PMF Indicator Achievement Summary
 
 ## Performance Measurement Framework (PMF) Tracker
@@ -1047,78 +1014,51 @@ pmf |>
   collapse_rows(columns = 1:2, valign = "middle")
 ```
 
-
 # Key Findings, Lessons Learned, and Recommendations
 
 ## Key Findings
 
 ### CoRLIA — Climate Resilience
 
-**Finding 1: Household resilience improved significantly across all districts.** The mean 
-Household Resilience Index rose from 38.4 to 52.6 — a 14.2-point gain representing a 37% 
-improvement over baseline. Rangamati showed the strongest absolute gains, while Bandarban 
-demonstrated the most rapid proportional improvement.
+**Finding 1: Household resilience improved significantly across all districts.** The mean Household Resilience Index rose from 38.4 to 52.6 — a 14.2-point gain representing a 37% improvement over baseline. Rangamati showed the strongest absolute gains, while Bandarban demonstrated the most rapid proportional improvement.
 
-**Finding 2: Early warning system access nearly tripled.** Only 22% of respondents had 
-access to climate early warning systems at baseline; this reached 64% at endline, substantially 
-exceeding the 65% target with continued momentum.
+**Finding 2: Early warning system access nearly tripled.** Only 22% of respondents had access to climate early warning systems at baseline; this reached 64% at endline, substantially exceeding the 65% target with continued momentum.
 
-**Finding 3: Women's decision-making participation shifted structurally.** The proportion of 
-women participating "Often" or "Always" in community decisions increased from approximately 
-20% to 50%, indicating a meaningful shift in gender norms and institutional practices.
+**Finding 3: Women's decision-making participation shifted structurally.** The proportion of women participating "Often" or "Always" in community decisions increased from approximately 20% to 50%, indicating a meaningful shift in gender norms and institutional practices.
 
-**Finding 4: Livelihood diversification improved but income gains remain modest.** While 
-households now maintain more income sources on average (from 1.9 to 2.8), monthly incomes 
-remain constrained by market access challenges and climate-induced crop losses.
+**Finding 4: Livelihood diversification improved but income gains remain modest.** While households now maintain more income sources on average (from 1.9 to 2.8), monthly incomes remain constrained by market access challenges and climate-induced crop losses.
 
 ### BERCR — Biodiversity Conservation
 
-**Finding 5: Biodiversity indicators show measurable ecosystem recovery.** The community 
-biodiversity index improved by 11.8 points on average. Respondents with 3–4 years of 
-programme participation showed substantially higher biodiversity gains (dose-response effect).
+**Finding 5: Biodiversity indicators show measurable ecosystem recovery.** The community biodiversity index improved by 11.8 points on average. Respondents with 3–4 years of programme participation showed substantially higher biodiversity gains (dose-response effect).
 
-**Finding 6: Forest cover perceptions shifted from net negative to net positive.** The 
-share reporting forest cover "increase" rose from 18% to 56%, while reports of decline fell 
-from 22% to 8% — reflecting both actual restoration and improved community stewardship.
+**Finding 6: Forest cover perceptions shifted from net negative to net positive.** The share reporting forest cover "increase" rose from 18% to 56%, while reports of decline fell from 22% to 8% — reflecting both actual restoration and improved community stewardship.
 
-**Finding 7: NTFP income is highest among active watershed co-managers.** Active 
-participants in watershed co-management earn approximately 28% more monthly NTFP income 
-than non-participants, demonstrating the livelihoods co-benefit of ecological governance.
+**Finding 7: NTFP income is highest among active watershed co-managers.** Active participants in watershed co-management earn approximately 28% more monthly NTFP income than non-participants, demonstrating the livelihoods co-benefit of ecological governance.
 
 ### WGEIE — Inclusive Education
 
-**Finding 8: Girls' school enrolment rose to near-target levels.** Enrolment increased 
-from 72.4% to 82.0%, approaching the 82% target. Attendance days per month also increased 
-from 15.8 to 18.2, indicating quality attendance improvement alongside access gains.
+**Finding 8: Girls' school enrolment rose to near-target levels.** Enrolment increased from 72.4% to 82.0%, approaching the 82% target. Attendance days per month also increased from 15.8 to 18.2, indicating quality attendance improvement alongside access gains.
 
-**Finding 9: MHM intervention produced transformative knowledge shifts.** The proportion 
-of respondents with "Poor" MHM knowledge dropped from 26% to 6%, while "Excellent" 
-knowledge increased from 12% to 34% — one of the most dramatic changes observed.
+**Finding 9: MHM intervention produced transformative knowledge shifts.** The proportion of respondents with "Poor" MHM knowledge dropped from 26% to 6%, while "Excellent" knowledge increased from 12% to 34% — one of the most dramatic changes observed.
 
-**Finding 10: Child marriage rates declined but remain critically high.** A reduction of 
-~8.4 percentage points is meaningful progress, but prevalence at ~34% remains far above 
-acceptable thresholds, indicating a need for sustained, multi-generational intervention.
+**Finding 10: Child marriage rates declined but remain critically high.** A reduction of \~8.4 percentage points is meaningful progress, but prevalence at \~34% remains far above acceptable thresholds, indicating a need for sustained, multi-generational intervention.
 
----
+------------------------------------------------------------------------
 
 ## Lessons Learned
 
-1. **Locally-rooted enumerators** with CHT socio-cultural knowledge significantly improved 
-   data quality and community trust, particularly in sensitive topics like GBV and child marriage.
+1.  **Locally-rooted enumerators** with CHT socio-cultural knowledge significantly improved data quality and community trust, particularly in sensitive topics like GBV and child marriage.
 
-2. **Integration of livelihood incentives** with conservation (BERCR) accelerates adoption: 
-   communities engage more consistently when ecological activities generate tangible income.
+2.  **Integration of livelihood incentives** with conservation (BERCR) accelerates adoption: communities engage more consistently when ecological activities generate tangible income.
 
-3. **WCRC functionality varies** by upazila governance context — committees embedded in 
-   existing traditional institutions showed higher operational effectiveness.
+3.  **WCRC functionality varies** by upazila governance context — committees embedded in existing traditional institutions showed higher operational effectiveness.
 
-4. **School-level infrastructure gaps** (especially MHM facilities) remain the single 
-   strongest predictor of girls' dropout, underscoring the need for continued infrastructure investment.
+4.  **School-level infrastructure gaps** (especially MHM facilities) remain the single strongest predictor of girls' dropout, underscoring the need for continued infrastructure investment.
 
-5. **Digital data collection** via KOBO enabled real-time quality monitoring but required 
-   sustained technical support in areas with intermittent connectivity.
+5.  **Digital data collection** via KOBO enabled real-time quality monitoring but required sustained technical support in areas with intermittent connectivity.
 
----
+------------------------------------------------------------------------
 
 ## Recommendations
 
@@ -1149,28 +1089,17 @@ tibble(
               ))
 ```
 
-
 # Conclusion
 
-This Annual Outcome Assessment provides robust, multi-source evidence that the ERRD-CHT Programme 
-is generating measurable improvements in climate resilience, biodiversity conservation, and 
-inclusive education across Rangamati, Bandarban, and Khagrachari districts.
+This Annual Outcome Assessment provides robust, multi-source evidence that the ERRD-CHT Programme is generating measurable improvements in climate resilience, biodiversity conservation, and inclusive education across Rangamati, Bandarban, and Khagrachari districts.
 
-With 2,219 survey respondents across 15 upazilas, the 2024 AOA documents consistent progress 
-against PMF indicators: all 14 tracked indicators are currently on or above target trajectory. 
-The convergence of quantitative and qualitative evidence confirms that programme approaches — 
-particularly WCRC-led community governance, watershed co-management with livelihood integration, 
-and school-level MHM infrastructure — are driving real behavioral and structural change.
+With 2,219 survey respondents across 15 upazilas, the 2024 AOA documents consistent progress against PMF indicators: all 14 tracked indicators are currently on or above target trajectory. The convergence of quantitative and qualitative evidence confirms that programme approaches — particularly WCRC-led community governance, watershed co-management with livelihood integration, and school-level MHM infrastructure — are driving real behavioral and structural change.
 
-Critical challenges remain: child marriage prevalence, though declining, requires sustained 
-multi-generational effort; MHM facility gaps in schools constrain girls' attendance and 
-dignity; and market access limitations prevent NTFP income from reaching its potential. 
-These challenges should guide adaptive programme management priorities in the remaining 
-implementation period.
+Critical challenges remain: child marriage prevalence, though declining, requires sustained multi-generational effort; MHM facility gaps in schools constrain girls' attendance and dignity; and market access limitations prevent NTFP income from reaching its potential. These challenges should guide adaptive programme management priorities in the remaining implementation period.
 
 In a real programme engagement of this nature, the MEL consultant would recommend that the programme continue its current course while intensifying equity-focused implementation in the most marginalized upazilas, and invest in a longitudinal tracking system to capture sustained changes beyond programme boundaries.
 
----
+------------------------------------------------------------------------
 
 # Annexes {.unnumbered}
 
@@ -1258,15 +1187,15 @@ tibble(
   column_spec(1, bold = TRUE, monospace = TRUE)
 ```
 
----
+------------------------------------------------------------------------
 
 # References {.unnumbered}
 
 ::: {#refs}
 :::
 
----
+------------------------------------------------------------------------
 
-*This is an independently produced demonstration report modelled on the real-world ERRD-CHT programme context (UNDP Bangladesh / Global Affairs Canada) for portfolio and M&E skills demonstration purposes only.*  
-*Not an official deliverable of UNDP, Global Affairs Canada, or DM WATCH LIMITED.*  
+*This is an independently produced demonstration report modelled on the real-world ERRD-CHT programme context (UNDP Bangladesh / Global Affairs Canada) for portfolio and M&E skills demonstration purposes only.*\
+*Not an official deliverable of UNDP, Global Affairs Canada, or DM WATCH LIMITED.*\
 *Prepared by: MD. Kamrul Hasan · © 2026*
